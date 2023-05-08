@@ -179,7 +179,7 @@ form.addEventListener('submit', (event) => {
     author: nameInput.value,
     title: titleInput.value,
     content: storyInput.value,
-    timestamp: new Date().toISOString(),
+    timestamp: new Date().toLocaleString(),
   };
 
 
